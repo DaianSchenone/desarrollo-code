@@ -1,0 +1,43 @@
+
+/**liquidaciones**/
+
+.liquidaciones {
+
+    background-image: $color-fondo;
+    height: 700px;
+    border-bottom: 0.05rem solid black;
+    padding: 32px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto auto;
+
+    &__imag {
+        width: 150px;
+        height: 150px;
+        margin-top: 40px;
+        transition: transform 2s;
+    }
+    
+   &__h2 {
+        color: black;
+        text-align: justify center;
+        font-size: 20px;
+        font-family:$font-family ;
+    }
+    
+    &__boton {
+        width: 100px;
+        height: 25px;
+        text-align: center;
+        background-color: black;
+        border-radius: 10px;
+        color: white;
+    border: none;
+    }
+
+ &__imag:hover {
+        transform: scale(1.3);
+    }
+}
+
+

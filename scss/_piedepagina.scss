@@ -1,0 +1,53 @@
+
+/* estos es el pie de pagina*/
+.seccion {
+    min-height: 170px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    border-top: 20px;
+}
+
+.footer {
+    height: 20px;
+    width: 20px;
+    padding-top: 30px;
+    &__boton {
+        border: 0.05rem solid black;
+        border-radius: 10px;
+        background-color: pink;
+        text-decoration: none;
+        width: 150px;
+        height: 150px;
+        color: black;
+        font-size: 25px;
+    }
+}
+
+
+
+.boton {
+    display: none;
+}
+
+.boton__2 {
+    display: none;
+}
+
+
+
+.medios {
+    background-color: white;
+    height: 100px;
+    display: block;
+    &__imag {
+        width: 100%;
+    
+    }
+    
+    &__h1 {
+        font-size: 20px;
+    }
+}
+
+

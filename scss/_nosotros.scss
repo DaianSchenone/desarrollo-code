@@ -1,0 +1,39 @@
+
+/**clases nosotros**/
+
+.nosotros {
+    background-image:$color-fondo ;
+    text-align: center;
+    padding-top: 30px;
+    border-bottom: 0.05rem solid black;
+
+    &__titulo {
+        padding-bottom: 45px;
+    }
+    
+    &__parrafo {
+        padding: 1rem;
+        text-align: start;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 20px;
+    }
+}
+
+
+.ROVA {
+    width: 300px;
+    height: 300px;
+    overflow: hidden;
+    transform: translate(600px);
+
+    &__imag {
+        width: 300px;
+        height: 300px;
+        transition: transform 2s;
+    }
+    
+    .ROVA:hover .ROVA__imag {
+        transform: scale(0.8);
+    }
+}
+
