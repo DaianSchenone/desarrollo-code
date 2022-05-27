@@ -1,0 +1,9 @@
+$redes:( 
+    facebook:blue,
+    instagram:pink,
+);
+@each $clave, $valor in $redes {
+    .btn-#{$clave}{
+        background-color: $valor;
+    }
+}

@@ -1,3 +1,11 @@
+.btn-facebook {
+  background-color: blue;
+}
+
+.btn-instagram {
+  background-color: pink;
+}
+
 * {
   padding: 0;
   margin: 0;
@@ -142,155 +150,8 @@ body {
   font-size: 20px;
 }
 
-/* clases del icono y header*/
-.header {
-  border-bottom: 0.05rem solid black;
-  border-top: 0.05rem solid black;
-  height: 100px;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  align-items: center;
-  overflow: hidden;
-}
-
-.nover {
-  display: none;
-}
-
-.header__faceint {
-  display: inline;
-  color: black;
-  text-decoration: none;
-  font-size: 30px;
-}
-
-.header__menu {
-  display: block;
-  color: black;
-  text-decoration: none;
-  display: none;
-}
-
-.nav {
-  padding: 1rem;
-}
-
-.nav__ul {
-  list-style: none;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  gap: 1rem;
-  width: auto;
-  object-fit: cover;
-}
-
-.nav__enlace {
-  color: black;
-  font-size: larger;
-  text-decoration: none;
-}
-
-.nav__cerrar {
-  display: none;
-}
-
-a:hover {
-  color: gray;
-}
-
-/* clases del icono*/
-.nav__icono {
-  align-items: center;
-  width: 150px;
-  height: 150px;
-}
-
-/**.nav__icono2 {
-    background-color: white;
-    width: 100px;
-    height: 100px;
-    padding: 30px 5px 5px 5px;
-    border-radius: 16px;
-    margin-top: 16px;
-    margin-left: 65px;
-    margin-bottom: 5px;
-    ;
-}**/
-.heartbeat {
-  -webkit-animation: heartbeat 1.5s ease-in-out infinite both;
-  animation: heartbeat 1.5s ease-in-out infinite both;
-}
-
-@-webkit-keyframes heartbeat {
-  from {
-    -webkit-transform: scale(1);
-    transform: scale(1);
-    -webkit-transform-origin: center center;
-    transform-origin: center center;
-    -webkit-animation-timing-function: ease-out;
-    animation-timing-function: ease-out;
-  }
-  10% {
-    -webkit-transform: scale(0.91);
-    transform: scale(0.91);
-    -webkit-animation-timing-function: ease-in;
-    animation-timing-function: ease-in;
-  }
-  17% {
-    -webkit-transform: scale(0.98);
-    transform: scale(0.98);
-    -webkit-animation-timing-function: ease-out;
-    animation-timing-function: ease-out;
-  }
-  33% {
-    -webkit-transform: scale(0.87);
-    transform: scale(0.87);
-    -webkit-animation-timing-function: ease-in;
-    animation-timing-function: ease-in;
-  }
-  45% {
-    -webkit-transform: scale(1);
-    transform: scale(1);
-    -webkit-animation-timing-function: ease-out;
-    animation-timing-function: ease-out;
-  }
-}
-
-@keyframes heartbeat {
-  from {
-    -webkit-transform: scale(1);
-    transform: scale(1);
-    -webkit-transform-origin: center center;
-    transform-origin: center center;
-    -webkit-animation-timing-function: ease-out;
-    animation-timing-function: ease-out;
-  }
-  10% {
-    -webkit-transform: scale(0.91);
-    transform: scale(0.91);
-    -webkit-animation-timing-function: ease-in;
-    animation-timing-function: ease-in;
-  }
-  17% {
-    -webkit-transform: scale(0.98);
-    transform: scale(0.98);
-    -webkit-animation-timing-function: ease-out;
-    animation-timing-function: ease-out;
-  }
-  33% {
-    -webkit-transform: scale(0.87);
-    transform: scale(0.87);
-    -webkit-animation-timing-function: ease-in;
-    animation-timing-function: ease-in;
-  }
-  45% {
-    -webkit-transform: scale(1);
-    transform: scale(1);
-    -webkit-animation-timing-function: ease-out;
-    animation-timing-function: ease-out;
-  }
+.color {
+  background-color: white;
 }
 
 /*  productos*/
@@ -324,7 +185,7 @@ a:hover {
   text-align: justify center;
   font-size: 20px;
   font-kerning: auto;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .producto__boton {
@@ -364,7 +225,7 @@ a:hover {
   color: black;
   text-align: justify center;
   font-size: 20px;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .liquidaciones__boton {
@@ -413,7 +274,7 @@ a:hover {
   transition: transform 2s;
 }
 
-.ROVA:hover .ROVA__imag {
+.ROVA .ROVA:hover .ROVA__imag {
   transform: scale(0.8);
 }
 
@@ -689,5 +550,9 @@ a:hover {
     justify-content: center;
     overflow: hidden;
   }
+}
+
+.color {
+  display: none;
 }
 /*# sourceMappingURL=estilos.css.map */
