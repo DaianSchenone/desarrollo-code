@@ -341,8 +341,7 @@ body {
 
 .carousel-item img {
   height: 300px;
-  object-fit: cover;
-  overflow: visible;
+  background-position: center;
 }
 
 .fondo {

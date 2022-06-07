@@ -454,6 +454,7 @@ border: none;
 }
 
 .nosotros__parrafo {
+    color:#080808;
     padding: 1rem;
     text-align: start;
     font-family: 'Times New Roman', Times, serif;
@@ -547,9 +548,9 @@ border: none;
 }
 
 .carousel-item img  {
+    background-position: center;
     height: 300px;
-    object-fit:cover;
-   overflow:visible;
+   
 }
 .fondo{
     background-image: linear-gradient(to right,#bdc3c7 ,#2c3e50 );
